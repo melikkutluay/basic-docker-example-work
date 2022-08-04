@@ -1,0 +1,5 @@
+## Build docker image for production
+Steps to build docker image and push to gitlab registry
+ - `docker login dockerhub.com` (skip this command if you are already logged in.)
+ - `docker build -t melikktly/demo:1.0.0 . --no-cache `
+ - `docker push melikktly/demo:1.0.0`
